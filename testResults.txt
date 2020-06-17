@@ -1,0 +1,590 @@
+
+=================================================================
+*		Evaluating validsudoku1.txt			*
+
+6	2	4	5	3	9	1	8	7	
+5	1	9	7	2	8	6	3	4	
+8	3	7	6	1	4	2	9	5	
+1	4	3	8	6	5	7	2	9	
+9	5	8	2	4	7	3	6	1	
+7	6	2	3	9	1	4	5	8	
+3	7	1	9	5	6	8	4	2	
+4	9	6	1	8	2	5	7	3	
+2	8	5	4	7	3	9	1	6	
+70000D1A6000 TRow: 0, BRow: 2, LCol: 0, RCol: 2 valid!
+70000D0A0000 TRow: 0, BRow: 0, LCol: 0, RCol: 8 valid!
+70000D229000 TRow: 1, BRow: 1, LCol: 0, RCol: 8 valid!
+70000D2AC000 TRow: 0, BRow: 8, LCol: 1, RCol: 1 valid!
+70000D32F000 TRow: 0, BRow: 2, LCol: 3, RCol: 5 valid!
+70000D123000 TRow: 0, BRow: 8, LCol: 0, RCol: 0 valid!
+70000D3B2000 TRow: 2, BRow: 2, LCol: 0, RCol: 8 valid!
+70000D53B000 TRow: 3, BRow: 3, LCol: 0, RCol: 8 valid!
+70000D4B8000 TRow: 0, BRow: 2, LCol: 6, RCol: 8 valid!
+70000D435000 TRow: 0, BRow: 8, LCol: 2, RCol: 2 valid!
+70000D5BE000 TRow: 0, BRow: 8, LCol: 3, RCol: 3 valid!
+70000D641000 TRow: 3, BRow: 5, LCol: 0, RCol: 2 valid!
+70000D6C4000 TRow: 4, BRow: 4, LCol: 0, RCol: 8 valid!
+70000D747000 TRow: 0, BRow: 8, LCol: 4, RCol: 4 valid!
+70000D7CA000 TRow: 3, BRow: 5, LCol: 3, RCol: 5 valid!
+70000D84D000 TRow: 5, BRow: 5, LCol: 0, RCol: 8 valid!
+70000D8D0000 TRow: 0, BRow: 8, LCol: 5, RCol: 5 valid!
+70000D953000 TRow: 3, BRow: 5, LCol: 6, RCol: 8 valid!
+70000D9D6000 TRow: 6, BRow: 6, LCol: 0, RCol: 8 valid!
+70000DA59000 TRow: 0, BRow: 8, LCol: 6, RCol: 6 valid!
+70000DADC000 TRow: 6, BRow: 8, LCol: 0, RCol: 2 valid!
+70000DB5F000 TRow: 7, BRow: 7, LCol: 0, RCol: 8 valid!
+70000DBE2000 TRow: 0, BRow: 8, LCol: 7, RCol: 7 valid!
+70000DC65000 TRow: 6, BRow: 8, LCol: 3, RCol: 5 valid!
+70000DCE8000 TRow: 8, BRow: 8, LCol: 0, RCol: 8 valid!
+70000DD6B000 TRow: 0, BRow: 8, LCol: 8, RCol: 8 valid!
+70000DDEE000 TRow: 6, BRow: 8, LCol: 6, RCol: 8 valid!
+Column: 70000D123000 valid
+Column: 70000D2AC000 valid
+Column: 70000D435000 valid
+Column: 70000D5BE000 valid
+Column: 70000D747000 valid
+Column: 70000D8D0000 valid
+Column: 70000DA59000 valid
+Column: 70000DBE2000 valid
+Column: 70000DD6B000 valid
+Row: 70000D0A0000 valid
+Row: 70000D229000 valid
+Row: 70000D3B2000 valid
+Row: 70000D53B000 valid
+Row: 70000D6C4000 valid
+Row: 70000D84D000 valid
+Row: 70000D9D6000 valid
+Row: 70000DB5F000 valid
+Row: 70000DCE8000 valid
+Subgrid: 70000D1A6000 valid
+Subgrid: 70000D32F000 valid
+Subgrid: 70000D4B8000 valid
+Subgrid: 70000D641000 valid
+Subgrid: 70000D7CA000 valid
+Subgrid: 70000D953000 valid
+Subgrid: 70000DADC000 valid
+Subgrid: 70000DC65000 valid
+Subgrid: 70000DDEE000 valid
+
+		Sudoku Puzzle: Valid
+
+=====================================================
+
+
+=================================================================
+*		Evaluating invalidsudoku1.txt			*
+
+1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	
+1	2	3	4	5	6	7	8	9	
+700001C84000 TRow: 0, BRow: 0, LCol: 0, RCol: 8 valid!
+700001D8A000 TRow: 0, BRow: 2, LCol: 0, RCol: 2 invalid!
+700001D07000 TRow: 0, BRow: 8, LCol: 0, RCol: 0 invalid!
+700001E0D000 TRow: 1, BRow: 1, LCol: 0, RCol: 8 valid!
+700001E90000 TRow: 0, BRow: 8, LCol: 1, RCol: 1 invalid!
+700001F13000 TRow: 0, BRow: 2, LCol: 3, RCol: 5 invalid!
+700001F96000 TRow: 2, BRow: 2, LCol: 0, RCol: 8 valid!
+700002019000 TRow: 0, BRow: 8, LCol: 2, RCol: 2 invalid!
+70000209C000 TRow: 0, BRow: 2, LCol: 6, RCol: 8 invalid!
+70000211F000 TRow: 3, BRow: 3, LCol: 0, RCol: 8 valid!
+7000021A2000 TRow: 0, BRow: 8, LCol: 3, RCol: 3 invalid!
+700002225000 TRow: 3, BRow: 5, LCol: 0, RCol: 2 invalid!
+7000022A8000 TRow: 4, BRow: 4, LCol: 0, RCol: 8 valid!
+70000232B000 TRow: 0, BRow: 8, LCol: 4, RCol: 4 invalid!
+7000023AE000 TRow: 3, BRow: 5, LCol: 3, RCol: 5 invalid!
+700002431000 TRow: 5, BRow: 5, LCol: 0, RCol: 8 valid!
+7000024B4000 TRow: 0, BRow: 8, LCol: 5, RCol: 5 invalid!
+700002537000 TRow: 3, BRow: 5, LCol: 6, RCol: 8 invalid!
+7000025BA000 TRow: 6, BRow: 6, LCol: 0, RCol: 8 valid!
+70000263D000 TRow: 0, BRow: 8, LCol: 6, RCol: 6 invalid!
+7000026C0000 TRow: 6, BRow: 8, LCol: 0, RCol: 2 invalid!
+700002743000 TRow: 7, BRow: 7, LCol: 0, RCol: 8 valid!
+7000027C6000 TRow: 0, BRow: 8, LCol: 7, RCol: 7 invalid!
+700002849000 TRow: 6, BRow: 8, LCol: 3, RCol: 5 invalid!
+7000028CC000 TRow: 8, BRow: 8, LCol: 0, RCol: 8 valid!
+70000294F000 TRow: 0, BRow: 8, LCol: 8, RCol: 8 invalid!
+7000029D2000 TRow: 6, BRow: 8, LCol: 6, RCol: 8 invalid!
+Column: 700001D07000 invalid
+Column: 700001E90000 invalid
+Column: 700002019000 invalid
+Column: 7000021A2000 invalid
+Column: 70000232B000 invalid
+Column: 7000024B4000 invalid
+Column: 70000263D000 invalid
+Column: 7000027C6000 invalid
+Column: 70000294F000 invalid
+Row: 700001C84000 valid
+Row: 700001E0D000 valid
+Row: 700001F96000 valid
+Row: 70000211F000 valid
+Row: 7000022A8000 valid
+Row: 700002431000 valid
+Row: 7000025BA000 valid
+Row: 700002743000 valid
+Row: 7000028CC000 valid
+Subgrid: 700001D8A000 invalid
+Subgrid: 700001F13000 invalid
+Subgrid: 70000209C000 invalid
+Subgrid: 700002225000 invalid
+Subgrid: 7000023AE000 invalid
+Subgrid: 700002537000 invalid
+Subgrid: 7000026C0000 invalid
+Subgrid: 700002849000 invalid
+Subgrid: 7000029D2000 invalid
+
+		Sudoku Puzzle: Invalid
+
+=====================================================
+
+
+=================================================================
+*		Evaluating invalidsudoku2.txt			*
+
+0	0	0	0	0	0	0	0	0	
+1	1	1	1	1	1	1	1	1	
+2	2	2	2	2	2	2	2	2	
+3	3	3	3	3	3	3	3	3	
+4	4	4	4	4	4	4	4	4	
+5	5	5	5	5	5	5	5	5	
+6	6	6	6	6	6	6	6	6	
+7	7	7	7	7	7	7	7	7	
+8	8	8	8	8	8	8	8	8	
+700008A94000 TRow: 0, BRow: 0, LCol: 0, RCol: 8 invalid!
+700008C1D000 TRow: 1, BRow: 1, LCol: 0, RCol: 8 invalid!
+700008B17000 TRow: 0, BRow: 8, LCol: 0, RCol: 0 valid!
+700008B9A000 TRow: 0, BRow: 2, LCol: 0, RCol: 2 invalid!
+700008CA0000 TRow: 0, BRow: 8, LCol: 1, RCol: 1 valid!
+700008DA6000 TRow: 2, BRow: 2, LCol: 0, RCol: 8 invalid!
+700008D23000 TRow: 0, BRow: 2, LCol: 3, RCol: 5 invalid!
+700008E29000 TRow: 0, BRow: 8, LCol: 2, RCol: 2 valid!
+700008EAC000 TRow: 0, BRow: 2, LCol: 6, RCol: 8 invalid!
+700008F2F000 TRow: 3, BRow: 3, LCol: 0, RCol: 8 invalid!
+700008FB2000 TRow: 0, BRow: 8, LCol: 3, RCol: 3 valid!
+700009035000 TRow: 3, BRow: 5, LCol: 0, RCol: 2 invalid!
+7000090B8000 TRow: 4, BRow: 4, LCol: 0, RCol: 8 invalid!
+70000913B000 TRow: 0, BRow: 8, LCol: 4, RCol: 4 valid!
+700009241000 TRow: 5, BRow: 5, LCol: 0, RCol: 8 invalid!
+7000092C4000 TRow: 0, BRow: 8, LCol: 5, RCol: 5 valid!
+700009347000 TRow: 3, BRow: 5, LCol: 6, RCol: 8 invalid!
+7000091BE000 TRow: 3, BRow: 5, LCol: 3, RCol: 5 invalid!
+7000093CA000 TRow: 6, BRow: 6, LCol: 0, RCol: 8 invalid!
+70000944D000 TRow: 0, BRow: 8, LCol: 6, RCol: 6 valid!
+7000094D0000 TRow: 6, BRow: 8, LCol: 0, RCol: 2 invalid!
+700009553000 TRow: 7, BRow: 7, LCol: 0, RCol: 8 invalid!
+7000095D6000 TRow: 0, BRow: 8, LCol: 7, RCol: 7 valid!
+700009659000 TRow: 6, BRow: 8, LCol: 3, RCol: 5 invalid!
+7000096DC000 TRow: 8, BRow: 8, LCol: 0, RCol: 8 invalid!
+70000975F000 TRow: 0, BRow: 8, LCol: 8, RCol: 8 valid!
+7000097E2000 TRow: 6, BRow: 8, LCol: 6, RCol: 8 invalid!
+Column: 700008B17000 valid
+Column: 700008CA0000 valid
+Column: 700008E29000 valid
+Column: 700008FB2000 valid
+Column: 70000913B000 valid
+Column: 7000092C4000 valid
+Column: 70000944D000 valid
+Column: 7000095D6000 valid
+Column: 70000975F000 valid
+Row: 700008A94000 invalid
+Row: 700008C1D000 invalid
+Row: 700008DA6000 invalid
+Row: 700008F2F000 invalid
+Row: 7000090B8000 invalid
+Row: 700009241000 invalid
+Row: 7000093CA000 invalid
+Row: 700009553000 invalid
+Row: 7000096DC000 invalid
+Subgrid: 700008B9A000 invalid
+Subgrid: 700008D23000 invalid
+Subgrid: 700008EAC000 invalid
+Subgrid: 700009035000 invalid
+Subgrid: 7000091BE000 invalid
+Subgrid: 700009347000 invalid
+Subgrid: 7000094D0000 invalid
+Subgrid: 700009659000 invalid
+Subgrid: 7000097E2000 invalid
+
+		Sudoku Puzzle: Invalid
+
+=====================================================
+
+
+=================================================================
+*		Evaluating invalidsudoku3.txt			*
+
+1	2	3	4	5	6	7	8	9	
+9	1	2	3	4	5	6	7	8	
+8	9	1	2	3	4	5	6	7	
+7	8	9	1	2	3	4	5	6	
+6	7	8	9	1	2	3	4	5	
+5	6	7	8	9	1	2	3	4	
+4	5	6	7	8	9	1	2	3	
+3	4	5	6	7	8	9	1	2	
+2	3	4	5	6	7	8	9	1	
+700002919000 TRow: 0, BRow: 8, LCol: 0, RCol: 0 valid!
+700002896000 TRow: 0, BRow: 0, LCol: 0, RCol: 8 valid!
+70000299C000 TRow: 0, BRow: 2, LCol: 0, RCol: 2 invalid!
+700002A1F000 TRow: 1, BRow: 1, LCol: 0, RCol: 8 valid!
+700002AA2000 TRow: 0, BRow: 8, LCol: 1, RCol: 1 valid!
+700002B25000 TRow: 0, BRow: 2, LCol: 3, RCol: 5 invalid!
+700002BA8000 TRow: 2, BRow: 2, LCol: 0, RCol: 8 valid!
+700002C2B000 TRow: 0, BRow: 8, LCol: 2, RCol: 2 valid!
+700002CAE000 TRow: 0, BRow: 2, LCol: 6, RCol: 8 invalid!
+700002D31000 TRow: 3, BRow: 3, LCol: 0, RCol: 8 valid!
+700002DB4000 TRow: 0, BRow: 8, LCol: 3, RCol: 3 valid!
+700002E37000 TRow: 3, BRow: 5, LCol: 0, RCol: 2 invalid!
+700002EBA000 TRow: 4, BRow: 4, LCol: 0, RCol: 8 valid!
+700002F3D000 TRow: 0, BRow: 8, LCol: 4, RCol: 4 valid!
+700002FC0000 TRow: 3, BRow: 5, LCol: 3, RCol: 5 invalid!
+700003043000 TRow: 5, BRow: 5, LCol: 0, RCol: 8 valid!
+7000030C6000 TRow: 0, BRow: 8, LCol: 5, RCol: 5 valid!
+700003149000 TRow: 3, BRow: 5, LCol: 6, RCol: 8 invalid!
+7000031CC000 TRow: 6, BRow: 6, LCol: 0, RCol: 8 valid!
+7000033D8000 TRow: 0, BRow: 8, LCol: 7, RCol: 7 valid!
+70000324F000 TRow: 0, BRow: 8, LCol: 6, RCol: 6 valid!
+70000345B000 TRow: 6, BRow: 8, LCol: 3, RCol: 5 invalid!
+7000034DE000 TRow: 8, BRow: 8, LCol: 0, RCol: 8 valid!
+7000032D2000 TRow: 6, BRow: 8, LCol: 0, RCol: 2 invalid!
+7000035E4000 TRow: 6, BRow: 8, LCol: 6, RCol: 8 invalid!
+700003561000 TRow: 0, BRow: 8, LCol: 8, RCol: 8 valid!
+700003355000 TRow: 7, BRow: 7, LCol: 0, RCol: 8 valid!
+Column: 700002919000 valid
+Column: 700002AA2000 valid
+Column: 700002C2B000 valid
+Column: 700002DB4000 valid
+Column: 700002F3D000 valid
+Column: 7000030C6000 valid
+Column: 70000324F000 valid
+Column: 7000033D8000 valid
+Column: 700003561000 valid
+Row: 700002896000 valid
+Row: 700002A1F000 valid
+Row: 700002BA8000 valid
+Row: 700002D31000 valid
+Row: 700002EBA000 valid
+Row: 700003043000 valid
+Row: 7000031CC000 valid
+Row: 700003355000 valid
+Row: 7000034DE000 valid
+Subgrid: 70000299C000 invalid
+Subgrid: 700002B25000 invalid
+Subgrid: 700002CAE000 invalid
+Subgrid: 700002E37000 invalid
+Subgrid: 700002FC0000 invalid
+Subgrid: 700003149000 invalid
+Subgrid: 7000032D2000 invalid
+Subgrid: 70000345B000 invalid
+Subgrid: 7000035E4000 invalid
+
+		Sudoku Puzzle: Invalid
+
+=====================================================
+
+
+=================================================================
+*		Evaluating invalidsudoku4.txt			*
+
+1	2	3	4	5	6	7	8	9	
+4	5	6	7	8	9	1	2	3	
+7	8	9	1	2	3	4	5	6	
+2	3	4	5	6	7	8	9	1	
+5	6	7	8	4	1	2	3	9	
+8	9	1	2	3	4	5	6	7	
+3	4	5	6	7	8	9	1	2	
+6	7	8	9	1	2	3	4	5	
+9	1	2	3	4	5	6	7	8	
+70000D24B000 TRow: 0, BRow: 0, LCol: 0, RCol: 8 valid!
+70000D457000 TRow: 0, BRow: 8, LCol: 1, RCol: 1 valid!
+70000D351000 TRow: 0, BRow: 2, LCol: 0, RCol: 2 valid!
+70000D3D4000 TRow: 1, BRow: 1, LCol: 0, RCol: 8 valid!
+70000D2CE000 TRow: 0, BRow: 8, LCol: 0, RCol: 0 valid!
+70000D55D000 TRow: 2, BRow: 2, LCol: 0, RCol: 8 valid!
+70000D4DA000 TRow: 0, BRow: 2, LCol: 3, RCol: 5 valid!
+70000D5E0000 TRow: 0, BRow: 8, LCol: 2, RCol: 2 valid!
+70000D6E6000 TRow: 3, BRow: 3, LCol: 0, RCol: 8 valid!
+70000D769000 TRow: 0, BRow: 8, LCol: 3, RCol: 3 valid!
+70000D663000 TRow: 0, BRow: 2, LCol: 6, RCol: 8 valid!
+70000D7EC000 TRow: 3, BRow: 5, LCol: 0, RCol: 2 valid!
+70000D86F000 TRow: 4, BRow: 4, LCol: 0, RCol: 8 valid!
+70000D8F2000 TRow: 0, BRow: 8, LCol: 4, RCol: 4 invalid!
+70000D975000 TRow: 3, BRow: 5, LCol: 3, RCol: 5 invalid!
+70000D9F8000 TRow: 5, BRow: 5, LCol: 0, RCol: 8 valid!
+70000DA7B000 TRow: 0, BRow: 8, LCol: 5, RCol: 5 valid!
+70000DAFE000 TRow: 3, BRow: 5, LCol: 6, RCol: 8 invalid!
+70000DC04000 TRow: 0, BRow: 8, LCol: 6, RCol: 6 valid!
+70000DB81000 TRow: 6, BRow: 6, LCol: 0, RCol: 8 valid!
+70000DC87000 TRow: 6, BRow: 8, LCol: 0, RCol: 2 valid!
+70000DD0A000 TRow: 7, BRow: 7, LCol: 0, RCol: 8 valid!
+70000DD8D000 TRow: 0, BRow: 8, LCol: 7, RCol: 7 valid!
+70000DE10000 TRow: 6, BRow: 8, LCol: 3, RCol: 5 valid!
+70000DE93000 TRow: 8, BRow: 8, LCol: 0, RCol: 8 valid!
+70000DF16000 TRow: 0, BRow: 8, LCol: 8, RCol: 8 invalid!
+70000DF99000 TRow: 6, BRow: 8, LCol: 6, RCol: 8 valid!
+Column: 70000D2CE000 valid
+Column: 70000D457000 valid
+Column: 70000D5E0000 valid
+Column: 70000D769000 valid
+Column: 70000D8F2000 invalid
+Column: 70000DA7B000 valid
+Column: 70000DC04000 valid
+Column: 70000DD8D000 valid
+Column: 70000DF16000 invalid
+Row: 70000D24B000 valid
+Row: 70000D3D4000 valid
+Row: 70000D55D000 valid
+Row: 70000D6E6000 valid
+Row: 70000D86F000 valid
+Row: 70000D9F8000 valid
+Row: 70000DB81000 valid
+Row: 70000DD0A000 valid
+Row: 70000DE93000 valid
+Subgrid: 70000D351000 valid
+Subgrid: 70000D4DA000 valid
+Subgrid: 70000D663000 valid
+Subgrid: 70000D7EC000 valid
+Subgrid: 70000D975000 invalid
+Subgrid: 70000DAFE000 invalid
+Subgrid: 70000DC87000 valid
+Subgrid: 70000DE10000 valid
+Subgrid: 70000DF99000 valid
+
+		Sudoku Puzzle: Invalid
+
+=====================================================
+
+
+=================================================================
+*		Evaluating incompletesudoku.txt			*
+
+1	2	3	4	5	6	7	8	9	
+4	5	6	7	8	9	1	2	3	
+7	8	9	1	2	3	4	5	6	
+2	3	4	5	6	7	8	9	1	
+5	6	7	8	9	1	2	3	4	
+8	9	1	2	3	4	5	6	7	
+3	4	5	6	7	8	9	1	2	
+6	7	8	9	1	2	3	4	0	
+0	0	0	0	0	0	0	0	0	
+70000F014000 TRow: 0, BRow: 0, LCol: 0, RCol: 8 valid!
+70000F19D000 TRow: 1, BRow: 1, LCol: 0, RCol: 8 valid!
+70000F220000 TRow: 0, BRow: 8, LCol: 1, RCol: 1 valid!
+70000F326000 TRow: 2, BRow: 2, LCol: 0, RCol: 8 valid!
+70000F3A9000 TRow: 0, BRow: 8, LCol: 2, RCol: 2 valid!
+70000F097000 TRow: 0, BRow: 8, LCol: 0, RCol: 0 valid!
+70000F42C000 TRow: 0, BRow: 2, LCol: 6, RCol: 8 valid!
+70000F11A000 TRow: 0, BRow: 2, LCol: 0, RCol: 2 valid!
+70000F532000 TRow: 0, BRow: 8, LCol: 3, RCol: 3 valid!
+70000F5B5000 TRow: 3, BRow: 5, LCol: 0, RCol: 2 valid!
+70000F6BB000 TRow: 0, BRow: 8, LCol: 4, RCol: 4 valid!
+70000F638000 TRow: 4, BRow: 4, LCol: 0, RCol: 8 valid!
+70000F2A3000 TRow: 0, BRow: 2, LCol: 3, RCol: 5 valid!
+70000F73E000 TRow: 3, BRow: 5, LCol: 3, RCol: 5 valid!
+70000F4AF000 TRow: 3, BRow: 3, LCol: 0, RCol: 8 valid!
+70000F844000 TRow: 0, BRow: 8, LCol: 5, RCol: 5 valid!
+70000F7C1000 TRow: 5, BRow: 5, LCol: 0, RCol: 8 valid!
+70000F94A000 TRow: 6, BRow: 6, LCol: 0, RCol: 8 valid!
+70000F8C7000 TRow: 3, BRow: 5, LCol: 6, RCol: 8 valid!
+70000F9CD000 TRow: 0, BRow: 8, LCol: 6, RCol: 6 valid!
+70000FA50000 TRow: 6, BRow: 8, LCol: 0, RCol: 2 invalid!
+70000FAD3000 TRow: 7, BRow: 7, LCol: 0, RCol: 8 valid!
+70000FBD9000 TRow: 6, BRow: 8, LCol: 3, RCol: 5 invalid!
+70000FC5C000 TRow: 8, BRow: 8, LCol: 0, RCol: 8 invalid!
+70000FB56000 TRow: 0, BRow: 8, LCol: 7, RCol: 7 valid!
+70000FCDF000 TRow: 0, BRow: 8, LCol: 8, RCol: 8 invalid!
+70000FD62000 TRow: 6, BRow: 8, LCol: 6, RCol: 8 invalid!
+Column: 70000F097000 valid
+Column: 70000F220000 valid
+Column: 70000F3A9000 valid
+Column: 70000F532000 valid
+Column: 70000F6BB000 valid
+Column: 70000F844000 valid
+Column: 70000F9CD000 valid
+Column: 70000FB56000 valid
+Column: 70000FCDF000 invalid
+Row: 70000F014000 valid
+Row: 70000F19D000 valid
+Row: 70000F326000 valid
+Row: 70000F4AF000 valid
+Row: 70000F638000 valid
+Row: 70000F7C1000 valid
+Row: 70000F94A000 valid
+Row: 70000FAD3000 valid
+Row: 70000FC5C000 invalid
+Subgrid: 70000F11A000 valid
+Subgrid: 70000F2A3000 valid
+Subgrid: 70000F42C000 valid
+Subgrid: 70000F5B5000 valid
+Subgrid: 70000F73E000 valid
+Subgrid: 70000F8C7000 valid
+Subgrid: 70000FA50000 invalid
+Subgrid: 70000FBD9000 invalid
+Subgrid: 70000FD62000 invalid
+
+		Sudoku Puzzle: Invalid
+
+=====================================================
+
+
+=================================================================
+*		Evaluating overflowsudoku.txt			*
+
+1	2	3	4	5	6	7	8	9	
+4	5	6	7	8	9	1	2	3	
+7	8	9	1	2	3	4	5	6	
+2	3	4	5	6	7	8	9	1	
+5	6	7	8	9	1	2	3	4	
+5	8	9	1	2	3	4	5	6	
+7	3	4	5	6	7	8	9	1	
+2	6	7	8	9	1	2	3	4	
+5	9	1	2	3	4	5	6	7	
+7000060AA000 TRow: 0, BRow: 8, LCol: 0, RCol: 0 invalid!
+700006027000 TRow: 0, BRow: 0, LCol: 0, RCol: 8 valid!
+7000061B0000 TRow: 1, BRow: 1, LCol: 0, RCol: 8 valid!
+70000612D000 TRow: 0, BRow: 2, LCol: 0, RCol: 2 valid!
+7000062B6000 TRow: 0, BRow: 2, LCol: 3, RCol: 5 valid!
+700006339000 TRow: 2, BRow: 2, LCol: 0, RCol: 8 valid!
+700006233000 TRow: 0, BRow: 8, LCol: 1, RCol: 1 invalid!
+7000063BC000 TRow: 0, BRow: 8, LCol: 2, RCol: 2 invalid!
+70000643F000 TRow: 0, BRow: 2, LCol: 6, RCol: 8 valid!
+7000064C2000 TRow: 3, BRow: 3, LCol: 0, RCol: 8 valid!
+700006545000 TRow: 0, BRow: 8, LCol: 3, RCol: 3 invalid!
+7000065C8000 TRow: 3, BRow: 5, LCol: 0, RCol: 2 invalid!
+70000664B000 TRow: 4, BRow: 4, LCol: 0, RCol: 8 valid!
+7000066CE000 TRow: 0, BRow: 8, LCol: 4, RCol: 4 invalid!
+700006751000 TRow: 3, BRow: 5, LCol: 3, RCol: 5 invalid!
+7000067D4000 TRow: 5, BRow: 5, LCol: 0, RCol: 8 invalid!
+700006857000 TRow: 0, BRow: 8, LCol: 5, RCol: 5 invalid!
+7000068DA000 TRow: 3, BRow: 5, LCol: 6, RCol: 8 invalid!
+70000695D000 TRow: 6, BRow: 6, LCol: 0, RCol: 8 invalid!
+7000069E0000 TRow: 0, BRow: 8, LCol: 6, RCol: 6 invalid!
+700006A63000 TRow: 6, BRow: 8, LCol: 0, RCol: 2 invalid!
+700006AE6000 TRow: 7, BRow: 7, LCol: 0, RCol: 8 invalid!
+700006B69000 TRow: 0, BRow: 8, LCol: 7, RCol: 7 invalid!
+700006BEC000 TRow: 6, BRow: 8, LCol: 3, RCol: 5 valid!
+700006C6F000 TRow: 8, BRow: 8, LCol: 0, RCol: 8 invalid!
+700006CF2000 TRow: 0, BRow: 8, LCol: 8, RCol: 8 invalid!
+700006D75000 TRow: 6, BRow: 8, LCol: 6, RCol: 8 valid!
+Column: 7000060AA000 invalid
+Column: 700006233000 invalid
+Column: 7000063BC000 invalid
+Column: 700006545000 invalid
+Column: 7000066CE000 invalid
+Column: 700006857000 invalid
+Column: 7000069E0000 invalid
+Column: 700006B69000 invalid
+Column: 700006CF2000 invalid
+Row: 700006027000 valid
+Row: 7000061B0000 valid
+Row: 700006339000 valid
+Row: 7000064C2000 valid
+Row: 70000664B000 valid
+Row: 7000067D4000 invalid
+Row: 70000695D000 invalid
+Row: 700006AE6000 invalid
+Row: 700006C6F000 invalid
+Subgrid: 70000612D000 valid
+Subgrid: 7000062B6000 valid
+Subgrid: 70000643F000 valid
+Subgrid: 7000065C8000 invalid
+Subgrid: 700006751000 invalid
+Subgrid: 7000068DA000 invalid
+Subgrid: 700006A63000 invalid
+Subgrid: 700006BEC000 valid
+Subgrid: 700006D75000 valid
+
+		Sudoku Puzzle: Invalid
+
+=====================================================
+
+ERROR: Cannot find 'doesNotExits.txt'
+
+=================================================================
+*		Evaluating SudokuPuzzle.txt			*
+
+1	2	3	4	5	6	7	8	9	
+4	5	6	7	8	9	1	2	3	
+7	8	9	1	2	3	4	5	6	
+2	3	4	5	6	7	8	9	1	
+5	6	7	8	9	1	2	3	4	
+8	9	1	2	3	4	5	6	7	
+3	4	5	6	7	8	9	1	2	
+6	7	8	9	1	2	3	4	5	
+9	1	2	3	4	5	6	7	8	
+700005F05000 TRow: 0, BRow: 8, LCol: 0, RCol: 0 valid!
+700005E82000 TRow: 0, BRow: 0, LCol: 0, RCol: 8 valid!
+700005F88000 TRow: 0, BRow: 2, LCol: 0, RCol: 2 valid!
+70000600B000 TRow: 1, BRow: 1, LCol: 0, RCol: 8 valid!
+70000608E000 TRow: 0, BRow: 8, LCol: 1, RCol: 1 valid!
+700006111000 TRow: 0, BRow: 2, LCol: 3, RCol: 5 valid!
+700006194000 TRow: 2, BRow: 2, LCol: 0, RCol: 8 valid!
+70000631D000 TRow: 3, BRow: 3, LCol: 0, RCol: 8 valid!
+700006217000 TRow: 0, BRow: 8, LCol: 2, RCol: 2 valid!
+70000629A000 TRow: 0, BRow: 2, LCol: 6, RCol: 8 valid!
+7000063A0000 TRow: 0, BRow: 8, LCol: 3, RCol: 3 valid!
+700006423000 TRow: 3, BRow: 5, LCol: 0, RCol: 2 valid!
+7000064A6000 TRow: 4, BRow: 4, LCol: 0, RCol: 8 valid!
+700006529000 TRow: 0, BRow: 8, LCol: 4, RCol: 4 valid!
+7000065AC000 TRow: 3, BRow: 5, LCol: 3, RCol: 5 valid!
+70000662F000 TRow: 5, BRow: 5, LCol: 0, RCol: 8 valid!
+7000066B2000 TRow: 0, BRow: 8, LCol: 5, RCol: 5 valid!
+700006735000 TRow: 3, BRow: 5, LCol: 6, RCol: 8 valid!
+7000067B8000 TRow: 6, BRow: 6, LCol: 0, RCol: 8 valid!
+70000683B000 TRow: 0, BRow: 8, LCol: 6, RCol: 6 valid!
+7000068BE000 TRow: 6, BRow: 8, LCol: 0, RCol: 2 valid!
+700006941000 TRow: 7, BRow: 7, LCol: 0, RCol: 8 valid!
+7000069C4000 TRow: 0, BRow: 8, LCol: 7, RCol: 7 valid!
+700006A47000 TRow: 6, BRow: 8, LCol: 3, RCol: 5 valid!
+700006ACA000 TRow: 8, BRow: 8, LCol: 0, RCol: 8 valid!
+700006B4D000 TRow: 0, BRow: 8, LCol: 8, RCol: 8 valid!
+700006BD0000 TRow: 6, BRow: 8, LCol: 6, RCol: 8 valid!
+Column: 700005F05000 valid
+Column: 70000608E000 valid
+Column: 700006217000 valid
+Column: 7000063A0000 valid
+Column: 700006529000 valid
+Column: 7000066B2000 valid
+Column: 70000683B000 valid
+Column: 7000069C4000 valid
+Column: 700006B4D000 valid
+Row: 700005E82000 valid
+Row: 70000600B000 valid
+Row: 700006194000 valid
+Row: 70000631D000 valid
+Row: 7000064A6000 valid
+Row: 70000662F000 valid
+Row: 7000067B8000 valid
+Row: 700006941000 valid
+Row: 700006ACA000 valid
+Subgrid: 700005F88000 valid
+Subgrid: 700006111000 valid
+Subgrid: 70000629A000 valid
+Subgrid: 700006423000 valid
+Subgrid: 7000065AC000 valid
+Subgrid: 700006735000 valid
+Subgrid: 7000068BE000 valid
+Subgrid: 700006A47000 valid
+Subgrid: 700006BD0000 valid
+
+		Sudoku Puzzle: Valid
+
+=====================================================
+
+
+=================================================================
+*		Evaluating badnumber.txt			*
+
+6	2	4	5	3	9	1	8	7	
+5	1	9	7	2	8	6	3	4	
+8	3	7	6	1	4	2	9	5	
+1	4	3	8	6	5	7	2	9	
+9	5	8	2	4	7	3	6	1	
+7	6	2	
+
+ERROR: 'badnumber.txt' contains an incomplete puzzle.
+
